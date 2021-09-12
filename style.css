@@ -10,15 +10,14 @@ ul{
     margin: 0;
 }
 
-nav li{
-    list-style: none;
+a{
+    text-decoration: none;
 }
 
 header{
     background-color: ivory;
     height: 100px;
-    border: 2px;
-    border-color: black;
+    border: 2px solid rgb(209, 114, 130);
 }
 
 h1{
@@ -28,10 +27,22 @@ h1{
     color: rgb(167, 238, 238);
     text-shadow: 2px 2px 1px black;
 }
+nav{
+    margin-top: 50px;
+}
 
 nav li{
     display: inline-block;
+}
 
+
+nav li a{
+    float: left;
+    color: rgb(167, 238, 238);
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 50px;
+    text-shadow: 2px 2px 1px black;
 }
 
 main{
@@ -42,6 +53,8 @@ main{
 main li{
     float: left;
     margin-right: 30px;
+    margin-bottom: 30px;
+    list-style: none;
 }
 
 p{
@@ -54,4 +67,8 @@ p{
     width: 200px;
     height: 200px;
     float: left;
+}
+
+h2{
+    font-size: 35px;
 }
