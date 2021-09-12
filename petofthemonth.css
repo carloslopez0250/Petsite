@@ -18,6 +18,7 @@ body{
        background-color: ivory;
        height: 100px;
        border: 2px solid rgb(209, 114, 130);
+       border-radius: 8px;
    }
    
    h1{
@@ -49,3 +50,8 @@ body{
        width: 960px;
        margin: 30px auto;
        min-height: 70px;
+   }
+   .image{
+       width: 350px;
+       height: 350px;
+   } 
