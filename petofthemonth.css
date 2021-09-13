@@ -52,6 +52,7 @@ body{
        min-height: 70px;
    }
    .image{
+       margin: auto;
        width: 500px;
        height: 500px;
    } 
