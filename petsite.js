@@ -1,4 +1,11 @@
 'use strict'
+let favPet = prompt('What is your favorite pet?');
+
+if (favPet.toLowerCase() === 'all pets'){
+    alert('We love all pets too!')
+}
+
+
 
 const greeting = document.getElementById('greeting');
 let today = new Date();
@@ -15,5 +22,12 @@ if (hourNow > 18) {
     greeting.innerText = 'Welcome!';
 }
 
-// document.write('<h3>' + greeting + '</h3>');
+function myFunction() {
+    let person = prompt("Please enter your name", "Harry Potter");
+    if (person != null) {
+      document.getElementById("demo").innerHTML =
+      "Hello " + person + "! Welcome to our ever growing pet community";
+    }
+  }
 
+// document.write('<h3>' + greeting + '</h3>');
