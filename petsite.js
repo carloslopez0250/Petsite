@@ -1,17 +1,19 @@
 'use strict'
 
-function myFunction() {
-    alert('Hello Pet Lovers!');
+const greeting = document.getElementById('greeting');
+let today = new Date();
+let hourNow = today.getHours();
+// let greeting;
+
+if (hourNow > 18) {
+    greeting.innerText = 'Good Evening Fellow Pet Lovers!';
+} else if (hourNow > 12) {
+    greeting.innerText = 'Good Afternoon Fellow Pet Lovers!';
+} else if (hourNow > 0) {
+    greeting.innerText = 'Good Morning Fellow Pet Lovers!';
+}  else {
+    greeting.innerText = 'Welcome!';
 }
-if(hourNow > 18){
-    // code block will be run if the first condition is true
-    greeting = 'Good evening, Class!';
-    // Good evening
-} else if(hourNow > 12)
-{
-    greeting = 'Good afternoon, Class!';
-}  else if(hourNow >= 0){
-    greeting = 'Good morning, Class!';
-} else{
-    greeting = 'Welcome!'
+
+// document.write('<h3>' + greeting + '</h3>');
 
