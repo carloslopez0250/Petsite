@@ -100,6 +100,12 @@ p{
 h2{
     font-size: 35px;
 }
-footer{
- 
+
+
+#looppic{
+    width: 200px;
+    height: 200dpx;
+    float: left;
+    border: 2px solid rgb(245, 135, 153);
+    border-radius: 6px;
 }
