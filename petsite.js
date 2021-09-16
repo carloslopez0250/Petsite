@@ -4,6 +4,7 @@ function favPet(){
     let favPet = prompt('What is your favorite pet?');
     if (favPet.toLowerCase() === 'all pets'){
         alert('We love all pets too!');
+        
     }
 }
 function greeting(){
