@@ -33,9 +33,13 @@ function numbers(){
         alert('try again. you have ' + (total - i) + ' attempts left');
       } else{
         i = 5;
-        // alert('GREAT JOB! You got it right!');
-        document.getElementById("looppic").innerHTML = alert('GREAT JOB! You got it right!');
-        //break;
+        alert('GREAT JOB! You got it right!');
+        let container = document.getElementById('container');
+        for(let i = 0; i < 2; i++){
+            let ele = document.createElement('IMG');
+            ele.src = ('petofthemonth.jpeg');
+            ele.className = 'looppic';
+            container.appendChild(ele);}
         }
       }
     } 
